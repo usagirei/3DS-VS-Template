@@ -9,14 +9,15 @@ Requires [DevKitPro]
 
 ---
 
-####Note:
+#### Notes:
 
-1: If running  `make` on a clean directory or after `make clean` crashes when creating the 3dsx, try rebuilding DevkitPro's [3dsTools]
-2: Running **Build** (F6) on Visual Studio will Launch Citra or try to Netload the 3dsx file to the address configured on **REMOTE_IP** on MakeFile when on their associated Build Targets
+1. If running  `make` on a clean directory or after `make clean` crashes when creating the 3dsx, try rebuilding DevkitPro's [3dsTools]
+
+2. Running **Build** (F6) on Visual Studio will Launch Citra or try to Netload the 3dsx file to the address configured on **REMOTE_IP** on MakeFile when on their associated Build Targets
 
 ---
 
-Thanks to @SteveIce10 for [BuildTools]
+Thanks to @SteveIce10 for [BuildTools]  
 Thanks to @astronautlevel2 for helping setup MakeFile and the [BuildTools]
 
 
