@@ -17,10 +17,13 @@ Requires [DevKitPro]
 
 ---
 
-Thanks to @SteveIce10 for [BuildTools]  
-Thanks to @astronautlevel2 for helping setup MakeFile and the [BuildTools]
+Thanks to **[@SteveIce10]** for [BuildTools]  
+Thanks to **[@astronautlevel2]** for helping setup MakeFile and the [BuildTools]
 
 
 [BuildTools]:https://github.com/Steveice10/buildtools
 [DevKitPro]:https://sourceforge.net/projects/devkitpro/
 [3dsTools]:https://github.com/devkitPro/3dstools
+
+[@astronautlevel2]:https://github.com/astronautlevel2
+[@SteveIce10]:https://github.com/Steveice10
