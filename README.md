@@ -15,7 +15,7 @@ Requires [DevKitPro]
 
 2. Running **Build** (F6) on Visual Studio will Launch Citra or try to Netload the 3dsx file to the address configured on **REMOTE_IP** on MakeFile when on their associated Build Targets
 
-3. When Adding a new Source File, add them externall then import them into the Project. Visual Studio will create the files on root, where they aren't acessible to DevkitPro
+3. When Adding a new Source File, add them externall then import them into the Project. Visual Studio will create the files on root, where they aren't acessible to DevkitPro, or use "Show All Files" mode
 
 ---
 
