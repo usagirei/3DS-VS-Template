@@ -54,35 +54,55 @@
     <NMakeBuildCommandLine>make</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>make clean</NMakeCleanCommandLine>
     <NMakeReBuildCommandLine>make --always-make</NMakeReBuildCommandLine>
-    <NMakePreprocessorDefinitions>
-    </NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>C:\devkitPro\libctru\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakePreprocessorDefinitions>__STDC__;__cplusplus</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>C:\devkitPro\libctru\include;$(ProjectDir)\build\source</NMakeIncludeSearchPath>
     <NMakeOutput>
     </NMakeOutput>
     <OutDir>$(ProjectDir)build</OutDir>
     <IntDir>$(ProjectDir)</IntDir>
+    <IncludePath>C:\devkitPro\devkitARM\arm-none-eabi\include</IncludePath>
+    <ExecutablePath />
+    <ReferencePath />
+    <LibraryPath>C:\devkitPro\devkitARM\arm-none-eabi\lib</LibraryPath>
+    <LibraryWPath />
+    <SourcePath>$(ProjectDir)\source</SourcePath>
+    <ExcludePath>$(ProjectDir)\build</ExcludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Citra|ARM'">
     <IntermediateOutputPath>$(ProjectDir)</IntermediateOutputPath>
     <NMakeBuildCommandLine>make &amp; start make run</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>make clean</NMakeCleanCommandLine>
     <NMakeReBuildCommandLine>make --always-make</NMakeReBuildCommandLine>
-    <NMakePreprocessorDefinitions />
-    <NMakeIncludeSearchPath>C:\devkitPro\libctru\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakePreprocessorDefinitions>__STDC__;__cplusplus</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>C:\devkitPro\libctru\include;$(ProjectDir)\build\source</NMakeIncludeSearchPath>
     <NMakeOutput />
     <OutDir>$(ProjectDir)build</OutDir>
     <IntDir>$(ProjectDir)</IntDir>
+    <IncludePath>C:\devkitPro\devkitARM\arm-none-eabi\include</IncludePath>
+    <ExecutablePath />
+    <ReferencePath />
+    <LibraryPath>C:\devkitPro\devkitARM\arm-none-eabi\lib</LibraryPath>
+    <LibraryWPath />
+    <SourcePath>$(ProjectDir)\source</SourcePath>
+    <ExcludePath>$(ProjectDir)\build</ExcludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Netload|ARM'">
     <IntermediateOutputPath>$(ProjectDir)</IntermediateOutputPath>
     <NMakeBuildCommandLine>make &amp; start make runhw</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>make clean</NMakeCleanCommandLine>
     <NMakeReBuildCommandLine>make --always-make</NMakeReBuildCommandLine>
-    <NMakePreprocessorDefinitions />
-    <NMakeIncludeSearchPath>C:\devkitPro\libctru\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakePreprocessorDefinitions>__STDC__;__cplusplus</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>C:\devkitPro\libctru\include;$(ProjectDir)\build\source</NMakeIncludeSearchPath>
     <NMakeOutput />
     <OutDir>$(ProjectDir)build</OutDir>
     <IntDir>$(ProjectDir)</IntDir>
+    <IncludePath>C:\devkitPro\devkitARM\arm-none-eabi\include</IncludePath>
+    <ExecutablePath />
+    <ReferencePath />
+    <LibraryPath>C:\devkitPro\devkitARM\arm-none-eabi\lib</LibraryPath>
+    <LibraryWPath />
+    <SourcePath>$(ProjectDir)\source</SourcePath>
+    <ExcludePath>$(ProjectDir)\build</ExcludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <BuildLog>

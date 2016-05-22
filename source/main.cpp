@@ -20,7 +20,7 @@ int main()
 
 		// Example rendering code that displays a white pixel
 		// Please note that the 3DS screens are sideways (thus 240x400 and 240x320)
-		u8* fb = gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
+		u8* fb = gfxGetFramebuffer(GFX_TOP, GFX_LEFT, nullptr, nullptr);
 		memset(fb, 127, 240*400*3);
 		fb[3*(10+10*240)] = 0xFF;
 		fb[3*(10+10*240)+1] = 0xFF;
